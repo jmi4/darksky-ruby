@@ -11,8 +11,6 @@ Gem::Specification.new do |s|
   s.summary     = %q{Ruby gem for retrieving data from the Dark Sky API}
   s.description = %q{Ruby gem for retrieving data from the Dark Sky API}
 
-  s.rubyforge_project = "darksky"
-
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
